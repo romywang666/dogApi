@@ -1,0 +1,44 @@
+/*for big tablet to 1200px(width smaller than 1140px rows */
+@media only screen and (max-width: 1200px){
+
+}
+
+/* for small tablet to big tablet */
+@media only screen and (max-width:1023px){
+
+}
+
+
+
+/* for small phone to small tablet form 481px to 767px */
+@media only screen and (max-width: 767px){
+    .breed__ingredients {
+        padding: 4rem 5rem;
+        font-size: 2rem;
+        line-height: 1.4;
+         }
+    .breed__ingredient-list {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        list-style: none;
+        margin-bottom: 3rem; }
+
+}
+
+
+/*for small phone from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .breed__ingredients {
+        padding: 4rem 5rem;
+        font-size: 2rem;
+        line-height: 1.4;
+    }
+    .breed__ingredient-list {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        list-style: none;
+        margin-bottom: 3rem; }
+
+}
